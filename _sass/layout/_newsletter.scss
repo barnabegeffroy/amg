@@ -1,15 +1,15 @@
-// Styling for the portfolio section
-#portfolio {
-  .portfolio-item {
+// Styling for the newsletter section
+#newsletter {
+  .newsletter-item {
     right: 0;
     margin: 0 0 15px;
-    .portfolio-link {
+    .newsletter-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
-      .portfolio-hover {
+      .newsletter-hover {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -21,7 +21,7 @@
         &:hover {
           opacity: 1;
         }
-        .portfolio-hover-content {
+        .newsletter-hover-content {
           font-size: 20px;
           position: absolute;
           top: 50%;
@@ -40,7 +40,7 @@
         }
       }
     }
-    .portfolio-caption {
+    .newsletter-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
@@ -63,14 +63,14 @@
   }
 }
 @media(min-width:767px) {
-  #portfolio {
-    .portfolio-item {
+  #newsletter {
+    .newsletter-item {
       margin: 0 0 30px;
     }
   }
 }
 
-.portfolio-modal {
+.newsletter-modal {
   .modal-dialog {
     margin: 1rem;
     max-width: 100vw;

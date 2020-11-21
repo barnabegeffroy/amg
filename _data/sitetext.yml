@@ -41,10 +41,10 @@ timeline:
         align: right
     end: ""
 
-portfolio:
+newsletter:
     title: "Newsletters"
     text: "Voici les dernières newsletters. N'hésitez pas à vous enregistrer pour ne pas en manquer !"
-    section: portfolio
+    section: newsletter
     closebutton: "Retour"
 
 about:
