@@ -1,0 +1,98 @@
+header:
+    title: Bienvenu sur amg-coach.fr !
+    text: Coaching de transitions de vie
+    button: En savoir plus...
+    buttonlink: "#services"
+
+services:
+    title: "Services"
+    text: "Lorem ipsum"
+    section: services
+    closebutton: "Retour"
+
+timeline:
+    title: "À propos de moi" 
+    text: "Voici mon parcours"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Coache de transitions de vie personnel et professionnel"
+        year: "2020"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        image: assets/img/timeline/1.jpg
+        alt: 
+      - title: "Formation DESU Pratiques du Coaching"
+        year: "2019-2020"
+        desc: "Université Paris 8"
+        image: assets/img/timeline/paris8.png
+        alt: 
+      - title: "Formatrice puis responsable de formation"
+        year: "1993-2019"
+        desc: "D'abord formatrice pour adultes puis coordinatrices, j'encadrais et animais une équipe d'une dizaine de formateurs. Je gèrais un portefeuille d'actions de formation en lien avec le secteur sanitaire et social - aide à la personne.  "
+        image: assets/img/timeline/clps.png
+        alt: image alt text
+      - title: "Maîtrise Sciences de l'éducation"
+        year: "1989-1991"
+        desc: "Université Rennes 2"
+        image: assets/img/timeline/rennes2.png
+        alt: 
+        # you can enforce the aligment
+        align: right
+    end: ""
+
+portfolio:
+    title: "Newsletters"
+    text: "Voici les dernières newsletters. N'hésitez pas à vous enregistrer pour ne pas en manquer !"
+    section: portfolio
+    closebutton: "Retour"
+
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
+
+clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: ""
+        url:
+        logo: 
+
+team:
+    title: "Mes coordonnées"
+    text: ""
+    subtext: 
+    section: team
+    people:
+      - name: "Anne-Marie Geffroy"
+        role: "Coach - Formatrice"
+        image: assets/img/team/id.jpeg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-home
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://www.linkedin.com/in/anne-marie-geffroy-5bb0019a/
+            icon: fab fa-linkedin-in          
+contact:
+    title: "Contactez-moi !"
+    text: "Remplissez ce formulaire ou référez vous à mes coordonnées !"
+    section: contact
+    
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: mailto:barnabe.geffroy@ecomail.fr
+        icon: "fab fa-home"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
