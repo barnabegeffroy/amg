@@ -1,8 +1,7 @@
 header:
-    title: Bienvenu sur amg-coach.fr !
-    text: Coaching de transitions de vie
-    button: En savoir plus...
-    buttonlink: "#services"
+    title: <p>coache en transition de vie</p><p><FONT size="10pt"> anne marie <strong>geffroy</strong></FONT></p><p><FONT size="6pt"> <strong>coache certifiée</strong></FONT></p>
+
+    text: "<p style=\"line-height: 1.75;\">« On ne peut arrêter les vagues<br>mais on peut apprendre à surfer »<br>Jon Kabat Zinn</p>"
 
 services:
     title: "Services"
