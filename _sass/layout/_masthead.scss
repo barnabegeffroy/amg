@@ -14,7 +14,6 @@ header.masthead {
       font-size: 33px;
       line-height: 33px;
       margin-bottom: 25px;
-      @include serif-font;
     }
     .intro-heading {
       color: #9a8377;
@@ -24,7 +23,6 @@ header.masthead {
       font-weight: 700;
       line-height: 14px;
       margin-bottom: 25px;
-      @include heading-font;
     }
   }
 }
@@ -38,7 +36,6 @@ header.masthead {
         font-size: 60px;
         line-height: 60px;
         margin-bottom: 25px;
-        @include serif-font;
       }
       .intro-heading {
         color: #9a8377;
@@ -48,7 +45,6 @@ header.masthead {
         font-weight: 700;
         line-height: 20px;
         margin-bottom: 50px;
-        @include heading-font;
       }
     }
   }

@@ -1,12 +1,6 @@
 // Global styling for this template
-html { 
-  font-family: century-gothic, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 body {
   overflow-x: hidden;
-  @include body-font;
 }
 
 p {
@@ -31,7 +25,6 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  @include heading-font;
 }
 
 .page-section {
@@ -49,7 +42,6 @@ h6 {
     font-weight: 400;
     margin-bottom: 75px;
     text-transform: none;
-    @include serif-font;
   }
 }
 @media(min-width:768px) {

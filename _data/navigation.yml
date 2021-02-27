@@ -1,9 +1,9 @@
 nav:
   - title: "préface"
-    section: services
+    section: timeline
     
   - title: "l'accompagnement"
-    section: timeline
+    section: services
 
   - title: "la coache"
     section: newsletter
