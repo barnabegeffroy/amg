@@ -162,11 +162,11 @@ header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px;
 
 .enso { padding: 150px 0; margin-left: 50px; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(-180deg); font-size: 140pt; float: left; }
 
-#timeline { background-image: url("../img/timeline.png"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-size: cover; }
+#preface { background-image: url("../img/preface.png"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-size: cover; }
 
-#timeline h2 { margin-top: 150px; }
+#preface h2 { margin-top: 150px; }
 
-#timeline h3 { margin-bottom: 400px; }
+#preface h3 { margin-bottom: 400px; }
 
 .team-member { margin-bottom: 50px; text-align: center; }
 
