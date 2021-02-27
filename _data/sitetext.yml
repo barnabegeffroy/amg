@@ -2,7 +2,7 @@ header:
     title: <p>coache en transition de vie</p><p><FONT size="10pt"> anne marie <strong>geffroy</strong></FONT></p><p><FONT size="6pt"> <strong>coache certifiée</strong></FONT></p>
     text: "<p style=\"line-height: 1.75;\">« On ne peut arrêter les vagues<br>mais on peut apprendre à surfer »<br>Jon Kabat Zinn</p>"
     button: "|"
-    buttonlink: "#timeline"
+    buttonlink: "#preface"
   
 services:
     title: "Services"
@@ -10,8 +10,8 @@ services:
     section: services
     closebutton: "Retour"
 
-timeline:
-  section: "timeline"
+preface:
+  section: "preface"
   title: "L’enso, le cercle des lumières en japonais, fait écho à ma manière de travailler"
   text : "L’enso représente l’art de l’équilibre intérieur.<br>
 <span style=\"opacity: 0\">L'enso </span>symbolise l’éveil, l’espace, l’énergie, le changement, le mouvement..<br>
