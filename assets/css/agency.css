@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body { overflow-x: hidden; }
 
 p { line-height: 0.8; }
@@ -12,9 +13,9 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 
 .page-section { padding: 100px 0; }
 
-.page-section h2.section-heading { margin-left: 50px; white-space: nowrap; font-size: 24px; margin-top: 0; margin-bottom: 15px; }
+.page-section h2.section-heading { margin-left: 50px; font-size: xx-large; font-weight: 800; margin-top: 0; margin-bottom: 25px !important; line-height: 1.75; }
 
-.page-section h3.section-subheading { margin-left: 50px; font-size: 18px; font-weight: 400; margin-bottom: 75px; text-transform: none; }
+.page-section h3.section-subheading { margin-left: 50px; margin-top: 35px; font-size: x-large; font-weight: 400; color: black; margin-bottom: 75px; text-transform: none; line-height: 1.5; }
 
 @media (min-width: 768px) { section { padding: 150px 0; } }
 
@@ -64,6 +65,12 @@ header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px;
 
 @media (min-width: 768px) { header.masthead .intro-text { padding-bottom: 200px; } header.masthead .intro-text .intro-lead-in { color: black; padding-top: 150px; font-size: 60px; line-height: 60px; margin-bottom: 25px; } header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px; font-style: italic; font-size: 20px; font-weight: 700; line-height: 20px; margin-bottom: 50px; } }
 
+#accompagnement { background-image: url("../img/accompagnement.png"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-size: cover; padding-left: 15%; }
+
+#accompagnement ul.accompagnement-list { list-style: none; font-size: x-large; }
+
+#accompagnement ul li::before { content: "•"; font-size: 35pt; color: #967e72; display: inline-block; width: 0.8em; line-height: 1em; }
+
 #accompagnement .accompagnement-item { right: 0; margin: 0 0 15px; }
 
 #accompagnement .accompagnement-item .accompagnement-link { position: relative; display: block; max-width: 400px; margin: 0 auto; cursor: pointer; }
@@ -90,11 +97,11 @@ header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px;
 
 .accompagnement-modal .modal-dialog { margin: 1rem; max-width: 100vw; }
 
-.accompagnement-modal .modal-content { padding: 100px 0; text-align: center; }
+.accompagnement-modal .modal-content { height: 95vh; padding: 100px 0; background-repeat: no-repeat; background-attachment: scroll; background-position: 0% 95%; background-size: cover; }
 
 .accompagnement-modal .modal-content h2 { font-size: 3em; margin-bottom: 15px; }
 
-.accompagnement-modal .modal-content p { margin-bottom: 30px; }
+.accompagnement-modal .modal-content p { line-height: 150%; margin-bottom: 30px; }
 
 .accompagnement-modal .modal-content p.item-intro { font-size: 16px; font-style: italic; margin: 20px 0 30px; }
 
@@ -111,6 +118,14 @@ header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px;
 .accompagnement-modal .close-modal .lr { /* Safari and Chrome */ z-index: 1051; width: 1px; height: 75px; margin-left: 35px; /* IE 9 */ -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); background-color: #212529; }
 
 .accompagnement-modal .close-modal .lr .rl { /* Safari and Chrome */ z-index: 1052; width: 1px; height: 75px; /* IE 9 */ -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); background-color: #212529; }
+
+#content br { display: none; }
+
+#content p br { display: inline; }
+
+.quote { font-style: italic; text-align: center; margin-left: 40%; margin-bottom: 10px; font-size: large; font-weight: bolder; }
+
+#boxes { margin-left: 10%; }
 
 #newsletter .newsletter-item { right: 0; margin: 0 0 15px; }
 
@@ -168,6 +183,8 @@ header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px;
 
 #preface h3 { margin-bottom: 400px; }
 
+#preface h3 strong { margin-top: 300px; }
+
 .team-member { margin-bottom: 50px; text-align: center; }
 
 .team-member img { width: 225px; height: 225px; border: 7px solid rgba(0, 0, 0, 0.1); }
@@ -176,7 +193,7 @@ header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px;
 
 .team-member p { margin-top: 0; }
 
-section#contact { background-color: #212529; background-image: url("../img/contact.png"); background-repeat: no-repeat; background-position: center; }
+section#contact { background-color: #87aa8e; background-image: url("../img/contact.png"); background-repeat: no-repeat; background-position: center; }
 
 section#contact .section-heading { color: #fff; }
 
