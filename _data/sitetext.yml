@@ -4,10 +4,10 @@ header:
     button: "|"
     buttonlink: "#preface"
   
-services:
-    title: "Services"
+accompagnement:
+    title: "accompagnement"
     text: "Lorem ipsum"
-    section: services
+    section: accompagnement
     closebutton: "Retour"
 
 preface:

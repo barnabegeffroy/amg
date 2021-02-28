@@ -1,15 +1,15 @@
-// Styling for the services section
-#services {
-  .services-item {
+// Styling for the accompagnement section
+#accompagnement {
+  .accompagnement-item {
     right: 0;
     margin: 0 0 15px;
-    .services-link {
+    .accompagnement-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
-      .services-hover {
+      .accompagnement-hover {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -21,7 +21,7 @@
         &:hover {
           opacity: 1;
         }
-        .services-hover-content {
+        .accompagnement-hover-content {
           font-size: 20px;
           position: absolute;
           top: 50%;
@@ -40,7 +40,7 @@
         }
       }
     }
-    .services-caption {
+    .accompagnement-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
@@ -62,14 +62,14 @@
   }
 }
 @media(min-width:767px) {
-  #services {
-    .services-item {
+  #accompagnement {
+    .accompagnement-item {
       margin: 0 0 30px;
     }
   }
 }
 
-.services-modal {
+.accompagnement-modal {
   .modal-dialog {
     margin: 1rem;
     max-width: 100vw;

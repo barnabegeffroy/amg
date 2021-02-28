@@ -29,7 +29,7 @@ analytics:
 
 collections:
   newsletter:
-  services:
+  accompagnement:
 
 markdown: kramdown
 

@@ -1,0 +1,32 @@
+<!-- accompagnement -->
+  <section class="page-section" id="{{ site.data.sitetext.accompagnement.section | default: "accompagnement" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.accompagnement.title | markdownify | default: "accompagnement" }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext.accompagnement.text | markdownify }}</h3>
+        </div>
+      </div>
+      <div class="row">
+    {% for project in site.accompagnement %}
+        <div class="col-md-4 col-sm-6 accompagnement-item">
+          <a class="accompagnement-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="accompagnement-hover">
+              <div class="accompagnement-hover-content">
+                <i class="{{ site.data.style.accompagnement-icon | default: "fas fa-plus fa-3x" }}"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+          </a>
+          <div class="accompagnement-caption">
+            <h4>{{ project.caption.title }}</h4>
+            <p class="text-muted">{{ project.caption.subtitle }}</p>
+          </div>
+        </div>
+    {% endfor %}
+      </div>
+    </div>
+    <div class="container">
+  </section>
+<!-- End accompagnement -->
+{% include modalsaccompagnement.html %}

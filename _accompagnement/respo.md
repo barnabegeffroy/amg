@@ -1,12 +1,12 @@
 ---
-title: "Communication NonViolente"
-subtitle: Formation CNV
-alt: OSBD
+title: Travail sur la responsabilité
+subtitle: Pichat et Sartre
+alt: la responsabilisation du coach
 
 caption:
-  title: Communication NonViolente
-  subtitle: Formation CNV
-  thumbnail: "assets/img/services/cnv.png"
+  title: Travail sur la responsabilité
+  subtitle: Pichat et Sartre
+  thumbnail: "assets/img/accompagnement/sartre.jpeg"
 ---
 
 
