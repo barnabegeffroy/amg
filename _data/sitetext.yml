@@ -5,8 +5,16 @@ header:
     buttonlink: "#preface"
   
 accompagnement:
-    title: "accompagnement"
-    text: "Lorem ipsum"
+    title: "Dans une vie, nous traversons des zones de turbulence qui bousculent, déstabilisent.<br>
+Ces passages sont essentiels et fondamentaux"
+    title2: "Les moments d’inconfort sont de réelles opportunités pour avancer sur notre chemin de vie."
+    text: "Nous pouvons ressentir le vide, l’absence, se sentir terriblement démunis, vulnérables,<br>
+seuls face à la tempête  l’épreuve.<br>
+Cette période est teintée d’incertitudes, d’indécision.<br>
+Mais elle débouche nécessairement sur de nouveaux possibles induits par les changements produits"
+    quote: "« Rentrer dans le mouvement inhérent à la crise, dans son dynamisme<br>
+et se laisser pousser en avant par elle. »<br>
+Fabrice Midal"
     section: accompagnement
     closebutton: "Retour"
 

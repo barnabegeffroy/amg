@@ -1,5 +1,22 @@
 // Styling for the accompagnement section
 #accompagnement {
+  background-image: url("../img/accompagnement.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-left: 15%;
+  ul.accompagnement-list{
+    list-style: none;
+    font-size: x-large;
+  }
+  ul li::before {
+    content:"•"; font-size:35pt; 
+      color: #967e72;
+      display: inline-block; 
+      width: 0.8em;
+      line-height: 1em;
+    }
   .accompagnement-item {
     right: 0;
     margin: 0 0 15px;
@@ -75,13 +92,14 @@
     max-width: 100vw;
   }
   .modal-content {
+    height: 95vh;
     padding: 100px 0;
-    text-align: center;
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
     }
     p {
+      line-height: 150%;
       margin-bottom: 30px;
     }
     p.item-intro {
@@ -93,12 +111,17 @@
       margin-top: 0;
       margin-bottom: 30px;
     }
+
     img {
       margin-bottom: 30px;
     }
     button {
       cursor: pointer;
     }
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0% 95%;
+    background-size: cover;
   }
   .close-modal {
     position: absolute;
@@ -135,4 +158,17 @@
       }
     }
   }
+}
+#content br {display: none;}
+#content p br {display: inline;}
+.quote{
+  font-style: italic;
+  text-align: center;
+  margin-left: 40%;
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: bolder;
+}
+#boxes{
+  margin-left: 10%;
 }

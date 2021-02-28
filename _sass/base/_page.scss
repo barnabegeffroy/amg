@@ -7,6 +7,7 @@ p {
   line-height: 0.8;
 }
 
+
 a {
   color: $primary;
   &:hover {
@@ -31,17 +32,21 @@ h6 {
   padding: 100px 0;
   h2.section-heading {
     margin-left: 50px;
-    white-space: nowrap;
-    font-size: 24px;
+    font-size: xx-large;
+    font-weight: 800;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 25px !important;
+    line-height: 1.75;
   }
   h3.section-subheading {
     margin-left: 50px;
-    font-size: 18px;
+    margin-top: 35px;
+    font-size: x-large;
     font-weight: 400;
+    color: black;
     margin-bottom: 75px;
     text-transform: none;
+    line-height: 1.5;
   }
 }
 @media(min-width:768px) {

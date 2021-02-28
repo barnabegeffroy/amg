@@ -1,12 +1,9 @@
 ---
-title: Développement personnel
-subtitle: Retrouvez confiance en vous !
-alt: Regardons vers l'avant
+title: Spécificité jeune adulte
+color: "#6a5e50"
 
 caption:
-  title: Développement personnel
-  subtitle: Retrouvez confiance en vous !
-  thumbnail: https://img.static-rmg.be/a/view/q100/w900/h600/2423515/confiance-png.png
+  title: Jeune adulte
 ---
 
 

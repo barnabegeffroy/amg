@@ -1,31 +1,30 @@
 <!-- accompagnement Modals -->
 {% for project in site.accompagnement %}
-  <div class="accompagnement-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
+<div class="accompagnement-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-image: url(../assets/img/accompagnement/{{ project.file }});">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">{{ project.title }}</h2>
-                <p class="item-intro text-muted">{{ project.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
-				<p>{{ project.content }}</p>		
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  {{ site.data.sitetext.accompagnement.closebutton | default: "Close Project" }}</button>
-              </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-15 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 style="color: {{ project.color }};">{{ project.caption.title }}</h2>
+              <p class="item-intro text-muted">{{ project.subtitle }}</p>
+              <p id="content">{{ project.content | newline_to_br }}</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                {{ site.data.sitetext.accompagnement.closebutton | default: "Close Project" }}</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 {% endfor %}
 <!-- End accompagnement Modals -->
