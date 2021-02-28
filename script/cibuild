@@ -34,15 +34,16 @@ function deploy {
 	    echo "except we should only publish the build branch. stopping here"
 	    exit 0
 	fi
-
+	curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > gitftp
+	chmod 755 gitftp 
 	git config git-ftp.url "amg-coach.fr"
 	git config git-ftp.user "wm95f_amg"
 	git config git-ftp.password $PASSWORD
-	git ftp catchup
+	./gitftp catchup
 	git add _site/*
 	git status
 	git commit -m "Lastest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to ftp"
-	git ftp push
+	./gitftp push
 
 
 
