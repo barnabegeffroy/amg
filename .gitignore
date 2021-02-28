@@ -6,3 +6,4 @@ _site
 Gemfile.lock
 unused
 bootstrap-reference.html
+push_to_site.sh
