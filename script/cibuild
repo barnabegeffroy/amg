@@ -2,7 +2,7 @@ set -e
 DEPLOY_REPO="https://${MY_WEBSITE}@github.com/barnabegeffroy/amg.git"
 function main {
 	clean
-	get_current_site
+	# get_current_site
 	build_site
 	deploy
 }
@@ -35,13 +35,17 @@ function deploy {
 	    exit 0
 	fi
 
-	cd _site
-	git config --global user.name "Travis CI"
-    git config --global user.email barnabe.geffroy@ecomail.fr
-	git add -A
+	git config git-ftp.url "amg-coach.fr"
+	git config git-ftp.user "wm95f_amg"
+	git config git-ftp.password $PASSWORD
+	git ftp catchup
+	git add _site/*
 	git status
-	git commit -m "Lastest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to github"
-	git push $DEPLOY_REPO master:master
+	git commit -m "Lastest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to ftp"
+	git ftp push
+
+
+
 }
 
 main
