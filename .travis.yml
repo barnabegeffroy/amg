@@ -16,7 +16,7 @@ branches:
   only:
   - build
 
-sudo: false
+sudo: true
 
 notifications:
   email: false
