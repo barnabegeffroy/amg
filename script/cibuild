@@ -38,7 +38,7 @@ function deploy {
 	chmod 755 gitftp 
 	git config git-ftp.url "amg-coach.fr"
 	git config git-ftp.user "wm95f_amg"
-	git config git-ftp.password $PASSWORD
+	git config git-ftp.password "${PASSWORD}"
 	./gitftp catchup
 	git add _site/*
 	git status
