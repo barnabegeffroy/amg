@@ -65,33 +65,37 @@ header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px;
 
 @media (min-width: 768px) { header.masthead .intro-text { padding-bottom: 200px; } header.masthead .intro-text .intro-lead-in { color: black; padding-top: 150px; font-size: 60px; line-height: 60px; margin-bottom: 25px; } header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px; font-style: italic; font-size: 20px; font-weight: 700; line-height: 20px; margin-bottom: 50px; } }
 
-#accompagnement { background-image: url("../img/accompagnement.png"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-size: cover; padding-left: 15%; }
+#accompagnement { background-image: url("../img/accompagnement.png"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-size: cover; }
 
-#accompagnement ul.accompagnement-list { list-style: none; font-size: x-large; }
+.layout-page { padding-left: 15%; }
 
-#accompagnement ul li::before { content: "•"; font-size: 35pt; color: #967e72; display: inline-block; width: 0.8em; line-height: 1em; }
+.layout-page ul.accompagnement-list { list-style: none; font-size: x-large; }
 
-#accompagnement .accompagnement-item { right: 0; margin: 0 0 15px; }
+.layout-page span { color: #937f73; font-weight: 800; }
 
-#accompagnement .accompagnement-item .accompagnement-link { position: relative; display: block; max-width: 400px; margin: 0 auto; cursor: pointer; }
+.layout-page ul li::before { content: "•"; font-size: 35pt; color: #967e72; display: inline-block; width: 0.8em; line-height: 1em; }
 
-#accompagnement .accompagnement-item .accompagnement-link .accompagnement-hover { position: absolute; width: 100%; height: 100%; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; transition: all ease 0.5s; opacity: 0; background: rgba(191, 178, 144, 0.9); }
+.layout-page .accompagnement-item { right: 0; margin: 0 0 15px; }
 
-#accompagnement .accompagnement-item .accompagnement-link .accompagnement-hover:hover { opacity: 1; }
+.layout-page .accompagnement-item .accompagnement-link { position: relative; display: block; max-width: 400px; margin: 0 auto; cursor: pointer; }
 
-#accompagnement .accompagnement-item .accompagnement-link .accompagnement-hover .accompagnement-hover-content { font-size: 20px; position: absolute; top: 50%; width: 100%; height: 20px; margin-top: -12px; text-align: center; color: white; }
+.layout-page .accompagnement-item .accompagnement-link .accompagnement-hover { position: absolute; width: 100%; height: 100%; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; transition: all ease 0.5s; opacity: 0; background: rgba(191, 178, 144, 0.9); }
 
-#accompagnement .accompagnement-item .accompagnement-link .accompagnement-hover .accompagnement-hover-content i { margin-top: -12px; }
+.layout-page .accompagnement-item .accompagnement-link .accompagnement-hover:hover { opacity: 1; }
 
-#accompagnement .accompagnement-item .accompagnement-link .accompagnement-hover .accompagnement-hover-content h3, #accompagnement .accompagnement-item .accompagnement-link .accompagnement-hover .accompagnement-hover-content h4 { margin: 0; }
+.layout-page .accompagnement-item .accompagnement-link .accompagnement-hover .accompagnement-hover-content { font-size: 20px; position: absolute; top: 50%; width: 100%; height: 20px; margin-top: -12px; text-align: center; color: white; }
 
-#accompagnement .accompagnement-item .accompagnement-caption { max-width: 400px; margin: 0 auto; padding: 25px; text-align: center; background-color: #fff; }
+.layout-page .accompagnement-item .accompagnement-link .accompagnement-hover .accompagnement-hover-content i { margin-top: -12px; }
 
-#accompagnement .accompagnement-item .accompagnement-caption h4 { margin: 0; text-transform: none; }
+.layout-page .accompagnement-item .accompagnement-link .accompagnement-hover .accompagnement-hover-content h3, .layout-page .accompagnement-item .accompagnement-link .accompagnement-hover .accompagnement-hover-content h4 { margin: 0; }
 
-#accompagnement .accompagnement-item .accompagnement-caption p { font-size: 16px; font-style: italic; margin: 0; }
+.layout-page .accompagnement-item .accompagnement-caption { max-width: 400px; margin: 0 auto; padding: 25px; text-align: center; background-color: #fff; }
 
-#accompagnement * { z-index: 2; }
+.layout-page .accompagnement-item .accompagnement-caption h4 { margin: 0; text-transform: none; }
+
+.layout-page .accompagnement-item .accompagnement-caption p { font-size: 16px; font-style: italic; margin: 0; }
+
+.layout-page * { z-index: 2; }
 
 @media (min-width: 767px) { #accompagnement .accompagnement-item { margin: 0 0 30px; } }
 
@@ -184,14 +188,6 @@ header.masthead .intro-text .intro-heading { color: #9a8377; padding-top: 150px;
 #preface h3 { margin-bottom: 400px; }
 
 #preface h3 strong { margin-top: 300px; }
-
-.team-member { margin-bottom: 50px; text-align: center; }
-
-.team-member img { width: 225px; height: 225px; border: 7px solid rgba(0, 0, 0, 0.1); }
-
-.team-member h4 { margin-top: 25px; margin-bottom: 0; text-transform: none; }
-
-.team-member p { margin-top: 0; }
 
 section#contact { background-color: #87aa8e; background-image: url("../img/contact.png"); background-repeat: no-repeat; background-position: center; }
 
