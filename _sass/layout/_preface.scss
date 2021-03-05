@@ -1,19 +1,7 @@
-.enso{
-  padding: 150px 0;
-  margin-left: 50px;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(-180deg);
-  font-size: 140pt;
-  float: left;
-}
-#preface{
-  background-image: url("../img/preface.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  h2{ 
+@media(min-width:1280px) {
+
+  #preface{
+    h2{ 
     margin-top: 150px;
   }
   h3{
@@ -22,4 +10,12 @@
       margin-top: 300px;
     }
   }
+}
+}
+#preface{
+  background-image: url("../img/preface.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }

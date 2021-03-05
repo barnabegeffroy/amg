@@ -7,22 +7,22 @@
   background-size: cover;
 }
 .layout-page {
-  padding-left: 15%;
   ul.accompagnement-list{
     list-style: none;
-    font-size: x-large;
+    font-size: 105%;
   }
   span{
     color:#937f73;
     font-weight: 800; 
   }
   ul li::before {
-    content:"•"; font-size:35pt; 
-      color: #967e72;
-      display: inline-block; 
-      width: 0.8em;
-      line-height: 1em;
-    }
+    content:"•";
+    font-size:105%; 
+    color: #967e72;
+    display: inline-block; 
+    width: 0.8em;
+    line-height: 1em;
+  }
   .accompagnement-item {
     right: 0;
     margin: 0 0 15px;
@@ -81,14 +81,26 @@
     }
   }
   * {
-    z-index: 2;
-  }
+  z-index: 2;
+}
 }
 @media(min-width:767px) {
+  .layout-page {
+    ul.accompagnement-list{
+      font-size: 150%;
+    }
+    ul li::before {
+      font-size:150%; 
+    }
+    padding-left: 15%;
+  }
   #accompagnement {
     .accompagnement-item {
       margin: 0 0 30px;
     }
+  }
+  .quote{
+    margin-left: 30%;
   }
 }
 
@@ -96,17 +108,18 @@
   .modal-dialog {
     margin: 1rem;
     max-width: 100vw;
+    width: 100%;
   }
   .modal-content {
-    height: 95vh;
-    padding: 100px 0;
+    height: 100%;
+    padding: 4% 0;
     h2 {
       font-size: 3em;
-      margin-bottom: 15px;
+      margin-bottom: 1%;
     }
     p {
       line-height: 150%;
-      margin-bottom: 30px;
+      margin-bottom: 2%;
     }
     p.item-intro {
       font-size: 16px;
@@ -117,7 +130,7 @@
       margin-top: 0;
       margin-bottom: 30px;
     }
-
+    
     img {
       margin-bottom: 30px;
     }
@@ -165,13 +178,10 @@
     }
   }
 }
-#content br {display: none;}
-#content p br {display: inline;}
 .quote{
   font-style: italic;
   text-align: center;
-  margin-left: 40%;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
   font-size: large;
   font-weight: bolder;
 }

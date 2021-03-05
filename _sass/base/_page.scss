@@ -32,24 +32,32 @@ h6 {
   padding: 100px 0;
   h2.section-heading {
     margin-left: 50px;
-    font-size: xx-large;
+    font-size: 110%;
     font-weight: 800;
     margin-top: 0;
-    margin-bottom: 25px !important;
+    margin-bottom: 1.5% !important;
     line-height: 1.75;
   }
   h3.section-subheading {
     margin-left: 50px;
     margin-top: 35px;
-    font-size: x-large;
+    font-size: 105%;
     font-weight: 400;
     color: black;
-    margin-bottom: 75px;
+    margin-bottom: 2%;
     text-transform: none;
     line-height: 1.5;
   }
 }
 @media(min-width:768px) {
+  .page-section {
+    h2.section-heading {
+      font-size: 175%;
+    }
+    h3.section-subheading {
+      font-size: 150%;
+    }
+  }
   section {
     padding: 150px 0;
   }

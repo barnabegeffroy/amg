@@ -5,12 +5,12 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   .intro-text {
-    padding-bottom: 200px;
+    padding-bottom: 75px;
     .intro-lead-in {
       color: black;
-      padding-top: 10px;
+      padding-top: 150px;
       font-size: 33px;
       line-height: 33px;
       margin-bottom: 25px;
