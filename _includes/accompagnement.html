@@ -1,45 +1,48 @@
 <!-- accompagnement -->
 <section class="page-section" id="{{ site.data.sitetext.accompagnement.section | default: " accompagnement" }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="section-heading">{{ site.data.sitetext.accompagnement.title | markdownify | default: "accompagnement"
-          }}</h2>
-        <ul class=accompagnement-list>
-          <li>L’affirmation de ses choix dans l’envol vers une vie adulte,</li>
-          <li>L’arrivée d’un enfant, quelques années plus tard son envol,</li>
-          <li>La négociation d’une séparation, les impacts d’un déménagement,</li>
-          <li>Un changement d’activité, le départ à la retraite...</li>
-        </ul>
-        <h2 class="section-heading">{{ site.data.sitetext.accompagnement.title2 | markdownify | default:
-          "accompagnement" }}</h2>
-        <h3 class="section-subheading">{{ site.data.sitetext.accompagnement.text }}</h3>
-        <div class="quote">{{ site.data.sitetext.accompagnement.quote }} </div>
+  <div class="layout-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="section-heading">{{ site.data.sitetext.accompagnement.title | markdownify | default:
+            "accompagnement"
+            }}</h2>
+          <ul class=accompagnement-list>
+            <li>L’affirmation de ses choix dans l’envol vers une vie adulte,</li>
+            <li>L’arrivée d’un enfant, quelques années plus tard son envol,</li>
+            <li>La négociation d’une séparation, les impacts d’un déménagement,</li>
+            <li>Un changement d’activité, le départ à la retraite...</li>
+          </ul>
+          <h2 class="section-heading">{{ site.data.sitetext.accompagnement.title2 | markdownify | default:
+            "accompagnement" }}</h2>
+          <h3 class="section-subheading">{{ site.data.sitetext.accompagnement.text }}</h3>
+          <div class="quote">{{ site.data.sitetext.accompagnement.quote }} </div>
 
+        </div>
       </div>
-    </div>
-    <div class="row" id="boxes">
-      {% for project in site.accompagnement %}
-      <div class="col-md-4 col-sm-4 accompagnement-item">
-        <a class="accompagnement-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="accompagnement-hover">
-            <div class="accompagnement-hover-content">
-              <i class="{{ site.data.style.accompagnement-icon | default: " fas fa-plus fa-3x" }}"></i>
+      <div class="row" id="boxes">
+        {% for project in site.accompagnement %}
+        <div class="col-md-4 col-sm-4 accompagnement-item">
+          <a class="accompagnement-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="accompagnement-hover">
+              <div class="accompagnement-hover-content">
+                <i class="{{ site.data.style.accompagnement-icon | default: " fas fa-plus fa-3x" }}"></i>
+              </div>
             </div>
-          </div>
-          <svg class="img-fluid" width="100%" height="350">
-            <g>
-              <rect x="0" y="0" width="100%" height="100%" fill={{ project.color }}></rect>
-              <text text-anchor="middle" x="50%" y="50%" font-weight="1000" font-size="28" fill="white">{{ project.title
-                }}</text>
-            </g>
-          </svg>
-        </a>
+            <svg class="img-fluid" width="100%" height="350">
+              <g>
+                <rect x="0" y="0" width="100%" height="100%" fill={{ project.color }}></rect>
+                <text text-anchor="middle" x="50%" y="50%" font-weight="1000" font-size="28" fill="white">{{
+                  project.title
+                  }}</text>
+              </g>
+            </svg>
+          </a>
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
-  <div class="container">
 </section>
 <!-- End accompagnement -->
 {% include modalsaccompagnement.html %}

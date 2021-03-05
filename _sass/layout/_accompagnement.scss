@@ -1,14 +1,20 @@
 // Styling for the accompagnement section
-#accompagnement {
+#accompagnement{
   background-image: url("../img/accompagnement.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+}
+.layout-page {
   padding-left: 15%;
   ul.accompagnement-list{
     list-style: none;
     font-size: x-large;
+  }
+  span{
+    color:#937f73;
+    font-weight: 800; 
   }
   ul li::before {
     content:"•"; font-size:35pt; 

@@ -3,7 +3,6 @@
 @charset "utf-8";
 // Core variables and mixins
 @import "base/variables.scss";
-@import "base/mixins.scss";
 
 // Custom colors
 $primary: {{ site.data.style.highlight | default: "#bfb290" }} !default;
@@ -27,6 +26,5 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/accompagnement.scss";
 @import "layout/newsletter.scss";
 @import "layout/preface.scss";
-@import "layout/team.scss";
 @import "layout/contact.scss";
 @import "layout/footer.scss";

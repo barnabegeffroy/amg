@@ -1,38 +1,25 @@
 <!-- Team -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
+<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: " team" }}">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
-				<h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
-			</div>
-		</div>
+		<div class="layout-page">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="section-heading">{{ site.data.sitetext.team.title | markdownify | default:
+						"accompagnement"
+						}}</h2>
+					<h3 class="section-subheading">{{ site.data.sitetext.team.text }}</h3>
 
-		<div class="row">
-			{% for person in site.data.sitetext.team.people %}
-			<div class="col-lg-12 text-center">
-				<div class="team-member">
-					<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
-					<h4>{{ person.name }}</h4>
-					<p class="text-muted">{{ person.role }}</p>
-					<ul class="list-inline social-buttons">
-						{% for network in person.social %}
-						<li class="list-inline-item">
-							<a href="{{ network.url }}">
-								<i class="{{ network.icon }}"></i>
-							</a>
-						</li>
-						{% endfor %}
+					<h2 class="section-heading">{{ site.data.sitetext.accompagnement.title2 | markdownify | default:
+						"accompagnement" }}</h2>
+					<ul class=accompagnement-list>
+						<li>Je m’engage à vous accueillir dans un environnement calme et serein facilitant le développement de la créativité, de l’innovation et de la collaboration.</li>
+						<li>Je garantis la confidentialité des échanges, la responsabilité des décisions à la personne accompagnée.</li>
+						<li>J’œuvre à la poursuite du développement de mes compétences et je suis supervisée par Christèle Heurlin.</li>
 					</ul>
 				</div>
 			</div>
-			{% endfor %}
 		</div>
-		<div class="row">
-			<div class="col-lg-8 mx-auto text-center">
-				<div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
-			</div>
-		</div>
+
 	</div>
 </section>
 <!-- End Team -->

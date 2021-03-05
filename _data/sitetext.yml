@@ -50,21 +50,16 @@ clients:
         logo: 
 
 team:
-    title: "Mes coordonnées"
-    text: ""
-    subtext: 
-    section: team
-    people:
-      - name: "Anne-Marie Geffroy"
-        role: "Coach - Formatrice"
-        image: assets/img/team/id.jpeg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-home
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/anne-marie-geffroy-5bb0019a/
-            icon: fab fa-linkedin-in          
+    title: "Mon identité se construit autour de valeurs que je partage dans le quotidien
+de mes actions et de mes engagements"
+    text: "<span>L’humilité</span>, la simplicité favorisent le travail collaboratif, le partage.<br>
+<span>La rencontre</span> crée le partage et enrichit mes expériences de vie. Elle me nourrit au quotidien.<br>
+<span>La confiance</span> en soi, en l’autre contribue à offrir un espace de partage en toute sécurité.<br>
+<span>Le respect</span> de ce que l’autre est, vit, dit ouvre cet espace d’acceptation inconditionnel de l’autre.<br>
+<span>Je stimule ma créativité</span> à travers la découverte, la surprise, la fantaisie.<br>
+<span>L’écoute des sens</span> éveille ma sensibilité à la pleine conscience pour une ouverture à soi et aux autres."
+    title2: "Ma posture est guidée par la charte de déontologie que j’ai réfléchie."
+        
 contact:
     title: "Contactez-moi !"
     text: "Remplissez ce formulaire ou référez vous à mes coordonnées !"
