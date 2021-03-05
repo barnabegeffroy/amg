@@ -59,6 +59,7 @@ de mes actions et de mes engagements"
 <span>Je stimule ma créativité</span> à travers la découverte, la surprise, la fantaisie.<br>
 <span>L’écoute des sens</span> éveille ma sensibilité à la pleine conscience pour une ouverture à soi et aux autres."
     title2: "Ma posture est guidée par la charte de déontologie que j’ai réfléchie."
+    section: team
         
 contact:
     title: "Contactez-moi !"
@@ -66,16 +67,14 @@ contact:
     section: contact
     
 footer:
-    legal: "Privacy Policy"
+    legal: "Mentions légales"
     social:
       - url: mailto:barnabe.geffroy@ecomail.fr
-        icon: "fab fa-home"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
+        icon: "fas fa-envelope"
+      - url: https://goo.gl/maps/YAzEEk2dDZRyFiR56
+        icon: "fas fa-home"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
