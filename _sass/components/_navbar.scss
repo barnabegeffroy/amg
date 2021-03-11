@@ -1,12 +1,11 @@
 // Styling for the navbar
 #mainNav {
-  background-color:$second;
+  background-color:white;
   .navbar-toggler {
-    font-size: 12px;
+    font-size: 150%;
     right: 0;
     padding: 13px;
-    text-transform: uppercase;
-    color: $primary;
+    color: white;
     border: 0;
     background-color: $primary;
     padding-right: 5%;
@@ -65,10 +64,21 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $second;
+      background-color: white;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      }
+    }
+  }
+}
+@media(min-width:1420px) {
+  #mainNav {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 1.1em 3em !important;
+        }
       }
     }
   }

@@ -4,9 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="section-heading">{{ site.data.sitetext.accompagnement.title | markdownify | default:
-            "accompagnement"
-            }}</h2>
+          <h2 class="section-heading">{{ site.data.sitetext.accompagnement.title }}</h2>
           <ul class=accompagnement-list>
             <li>L’affirmation de ses choix dans l’envol vers une vie adulte,</li>
             <li>L’arrivée d’un enfant, quelques années plus tard son envol,</li>
@@ -20,7 +18,7 @@
 
         </div>
       </div>
-      <div class="row" id="boxes" style="margin-left: 40%!important;">
+      <div class="row" id="boxes">
         {% for project in site.accompagnement %}
         <div class="col-md-4 col-sm-4 accompagnement-item">
           <a class="accompagnement-link" data-toggle="modal" href="#p{{ forloop.index }}">

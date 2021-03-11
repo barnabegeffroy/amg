@@ -1,12 +1,12 @@
 header:
-    title: <p>coache en transition de vie</p><p><FONT size="10pt"> anne marie <strong>geffroy</strong></FONT></p>
+    title: <p>coache en transition de vie</p><p id="amg-id">anne marie <strong>geffroy</strong></p>
     text: "<p style=\"line-height: 1.75;\">« On ne peut arrêter les vagues<br>mais on peut apprendre à surfer »<br>Jon Kabat Zinn</p>"
     button: "|"
     buttonlink: "#preface"
   
 accompagnement:
-    title: "Dans une vie, nous traversons des zones de turbulence qui bousculent, déstabilisent.<br>
-Ces passages sont essentiels et fondamentaux"
+    title: "<p>Dans une vie, nous traversons des zones de turbulence qui bousculent, déstabilisent.<br>
+Ces passages sont essentiels et fondamentaux</p>"
     title2: "Les moments d’inconfort sont de réelles opportunités pour avancer sur notre chemin de vie."
     text: "Nous pouvons ressentir le vide, l’absence, se sentir terriblement démunis, vulnérables,<br>
 seuls face à la tempête  l’épreuve.<br>
@@ -20,7 +20,7 @@ Fabrice Midal"
 
 preface:
   section: "preface"
-  title: "L’enso, le cercle des lumières en japonais, fait écho à ma manière de travailler"
+  title: "<p id=\"enso-title\"><span>L’enso,</span><br>le cercle des lumières en japonais, fait écho à ma manière de travailler</p>"
   text : "L’enso représente l’art de l’équilibre intérieur.<br>
 <span style=\"opacity: 0\">L'enso </span>symbolise l’éveil, l’espace, l’énergie, le changement, le mouvement..<br>
 <span style=\"opacity: 0\">L'enso </span>évoque aussi la simplicité, la plénitude ou l’harmonie entre les éléments.<br>
