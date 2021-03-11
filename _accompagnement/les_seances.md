@@ -1,6 +1,6 @@
 ---
 title: Les séances
-color: "#967e72"
+color: "#283359"
 file: seances.png
 
 caption:

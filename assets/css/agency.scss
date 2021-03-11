@@ -5,7 +5,8 @@
 @import "base/variables.scss";
 
 // Custom colors
-$primary: {{ site.data.style.highlight | default: "#bfb290" }} !default;
+$primary: {{ site.data.style.highlight | default: "#426085" }} !default;
+$second: {{ site.data.style.highlight | default: "#bcd2db" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 

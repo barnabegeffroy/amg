@@ -9,18 +9,18 @@ header.masthead {
   .intro-text {
     padding-bottom: 75px;
     .intro-lead-in {
-      color: black;
+      color: $primary;
       padding-top: 150px;
       font-size: 33px;
       line-height: 33px;
       margin-bottom: 25px;
     }
     .intro-heading {
-      color: #9a8377;
+      font-family: "New Century Schoolbook", Times, serif;
+      color: black;
       padding-top: 150px;
       font-style: italic;
       font-size: 14px;
-      font-weight: 700;
       line-height: 14px;
       margin-bottom: 25px;
     }
@@ -31,18 +31,18 @@ header.masthead {
     .intro-text {
       padding-bottom: 200px;
       .intro-lead-in {
-        color: black;
+        color: $primary;
         padding-top: 150px;
         font-size: 60px;
         line-height: 60px;
         margin-bottom: 25px;
       }
       .intro-heading {
-        color: #9a8377;
+        font-family: "New Century Schoolbook", Times, serif;
+        color: black;
         padding-top: 150px;
         font-style: italic;
         font-size: 20px;
-        font-weight: 700;
         line-height: 20px;
         margin-bottom: 50px;
       }

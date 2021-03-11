@@ -12,13 +12,13 @@
     font-size: 105%;
   }
   span{
-    color:#937f73;
+    color:$primary;
     font-weight: 800; 
   }
   ul li::before {
     content:"•";
     font-size:105%; 
-    color: #967e72;
+    color: $primary;
     display: inline-block; 
     width: 0.8em;
     line-height: 1em;
@@ -179,8 +179,10 @@
   }
 }
 .quote{
+  color: $primary;
   font-style: italic;
   text-align: center;
+  margin-right: 10%;
   margin-bottom: 1%;
   font-size: large;
   font-weight: bolder;
